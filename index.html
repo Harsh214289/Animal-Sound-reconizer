@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Sounds Of animals</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <br>
+        <center>
+            <h2> Animal Sound Identifier App </h2>
+            <p> NOTE - Try making the voice of A Cat, A Dog, A Lion etc. </p>
+            <hr>
+            <span> I Can hear the sound of :  <p id="soundOfAnimal">  </p></span>
+            <span> Accuracy Of the sound :  <p id="accuracyOfSound">  </p></span>
+            <button id="start_audio" onclick="identify_sound()"> START </button>
+            <br>
+            <img id="image_animal" src="">
+        </center>
+    </body>
+
+    <script src="main.js"></script>
+</html>
